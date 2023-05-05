@@ -1,5 +1,18 @@
 # Snake-brazuca
-Código do jogo clássico snake com inteligência artificial, mais especificamente usando aprendizado de reforço
+Código do jogo clássico snake com inteligência artificial, mais especificamente usando aprendizado por reforço, o objetivo é demonstrar conceitos básicos de aprendizado por reforço em um jogo divertido :) 
+
+Regras:
+Comeu a laranja? Ganha ponto
+Bateu na parede? Perde ponto
+Andou pela jogo? Ganha ponto
+
+A rede neural transforma a execução dessas regras em calibração da rede neural, e a cada atualização da rede com a tabela q ("q values") o agente escolhe a melhor ação.
+
+Entendendo o aprendizado por reforço
+
+Agente =
+Estado = 
+Ação = 
 
 Os arquivos principais são:
 
@@ -15,7 +28,7 @@ Para executar o jogo com o agente treinado, basta executar o arquivo agente.py. 
 
 Para executar o arquivo, abra o terminal na pasta raiz do projeto e execute o comando:
 
-#Jogando
+# Jogando  
 python agente.py
 Ao jogar o jogo, o agente irá aprender a maximizar a pontuação por meio do algoritmo de Q-learning. O modelo de rede neural utilizado pelo agente foi treinado previamente utilizando o arquivo train.py, que salva o modelo treinado no arquivo model.pth.
 
