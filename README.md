@@ -1,20 +1,13 @@
-# Snake-brazuca
-Código do jogo clássico snake com inteligência artificial, mais especificamente usando aprendizado por reforço, o objetivo é demonstrar conceitos básicos de aprendizado por reforço em um jogo divertido :) 
+## Snake-brazuca
+Código do jogo clássico Snake com inteligência artificial, usando aprendizado por reforço para maximizar a pontuação. O objetivo é demonstrar conceitos básicos de aprendizado por reforço em um jogo divertido :)
 
-Regras:
-Comeu a laranja? Ganha ponto
-Bateu na parede? Perde ponto
-Andou pela jogo? Ganha ponto
+## Como jogar
+O objetivo do jogo é guiar a cobra para comer a laranja e ganhar pontos. A cobra cresce a cada vez que come a laranja, tornando o jogo mais desafiador. A cobra deve evitar bater nas paredes ou em seu próprio corpo, o que resulta na perda de pontos.
 
-A rede neural transforma a execução dessas regras em calibração da rede neural, e a cada atualização da rede com a tabela q ("q values") o agente escolhe a melhor ação.
+# Entendendo o aprendizado por reforço
+O aprendizado por reforço é uma técnica de aprendizado de máquina em que um agente aprende a tomar decisões para maximizar uma recompensa. No caso do jogo Snake, o agente aprende a maximizar sua pontuação por meio do algoritmo de Q-learning. A rede neural é atualizada com as tabelas Q, que representam a recompensa esperada para cada ação em cada estado.
 
-Entendendo o aprendizado por reforço
-
-Agente =
-Estado = 
-Ação = 
-
-Os arquivos principais são:
+# Os arquivos principais são:
 
 game.py: este arquivo contém o código para o jogo Snake em si. A classe Jogo define as funções para inicializar o jogo, atualizar o estado do jogo e verificar se o jogo terminou.
 
