@@ -35,4 +35,11 @@ pip install torch
 pip install matplotlib
 pip install numpy
 
+# Olha só o resultado :)
+
+
+# Plotando os resultados
+![Gráfico de treinamento](img/Plotando_o_treinamento.png)
+
+
 Obs:O snake não está passando de 70 pontos, em breve farei atualizações no código para otimizar seus parâmetros.
