@@ -36,7 +36,7 @@ pip install matplotlib
 pip install numpy
 
 # Olha só o resultado :)
-
+![Snake em ação](img/Snake_em_acao.jpeg)
 
 # Plotando os resultados
 ![Gráfico de treinamento](img/Plotando_o_treinamento.png)
