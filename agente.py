@@ -18,6 +18,7 @@ class Agent:
         self.gamma = 0.9 # fator de desconto
         self.memory = deque(maxlen=MAX_MEMORY) # # popleft() - remove e retorna o elemento mais antigo da esquerda na deque
         self.model = Linear_QNet(11, 512, 3)
+        self.model.load() # carregar o modelo salvo
         self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
 
 
